@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ket.mn</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #333; color: white; padding: 20px; text-align: center; }
+    nav ul { list-style: none; display: flex; justify-content: center; padding: 0; background-color: #444; }
+    nav ul li { margin: 10px; }
+    nav ul li a { color: white; text-decoration: none; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; }
+    .product { border: 1px solid #ddd; padding: 10px; text-align: center; }
+    .product img { width: 100%; height: auto; }
+    .product button { background-color: #28a745; color: white; padding: 10px; border: none; cursor: pointer; }
+    footer { background-color: #333; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ket.mn</h1>
+    <p>Стильтэй амьдралын эхлэл</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Нүүр</a></li>
+      <li><a href="#">Бараа</a></li>
+      <li><a href="#">Холбоо барих</a></li>
+    </ul>
+  </nav>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h3>Oversize цамц</h3>
+      <p>₮45,000</p>
+      <button>Сагсанд хийх</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Vintage жинс</h3>
+      <p>₮65,000</p>
+      <button>Сагсанд хийх</button>
+    </div>      
+    <!-- Нэмэлт бараанууд энд оруулна -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ket.mn | Бүх эрх хуулиар хамгаалагдсан</p>
+  </footer>
+</body>
+</html>
